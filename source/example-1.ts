@@ -1,8 +1,6 @@
-const f = async function ():Promise<number> {
-    return 1;
-};
+import { f } from './example-2';
 
 (async () => {
-    const n: number = await f();
+    const n = await f();
     console.log(n);
 })();
